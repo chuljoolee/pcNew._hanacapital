@@ -5,8 +5,7 @@ import svgLoader from 'vite-svg-loader';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:
-    process.env.NODE_ENV === 'production' ? '/pc._hanacapital/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/pcNew._hanacapital/' : '/',
   plugins: [
     vue({
       template: {
